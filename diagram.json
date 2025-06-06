@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "author": "Thomas",
+  "editor": "Wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 100, "attrs": {} },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": -202.9,
+      "left": -0.2,
+      "attrs": { "label": "Sensor Nível de Água" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot2",
+      "top": -193.3,
+      "left": 335.8,
+      "attrs": { "label": "Sensor de Chuva" }
+    },
+    { "type": "wokwi-led", "id": "ledV", "top": 140, "left": -60, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "ledA", "top": 140, "left": 0, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "ledR", "top": 140, "left": 60, "attrs": { "color": "red" } },
+    { "type": "wokwi-buzzer", "id": "buzz", "top": 290.4, "left": 261, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "uno:GND", "black", [] ],
+    [ "pot1:VCC", "uno:5V", "red", [] ],
+    [ "pot1:SIG", "uno:A0", "blue", [] ],
+    [ "pot2:GND", "uno:GND", "black", [] ],
+    [ "pot2:VCC", "uno:5V", "red", [] ],
+    [ "pot2:SIG", "uno:A1", "blue", [] ],
+    [ "ledV:C", "uno:GND", "black", [] ],
+    [ "ledV:A", "uno:2", "green", [] ],
+    [ "ledA:C", "uno:GND", "black", [] ],
+    [ "ledA:A", "uno:3", "yellow", [] ],
+    [ "ledR:C", "uno:GND", "black", [] ],
+    [ "ledR:A", "uno:4", "red", [] ],
+    [ "buzz:GND", "uno:GND", "black", [] ],
+    [ "buzz:VCC", "uno:5V", "red", [] ],
+    [ "buzz:SIG", "uno:5", "purple", [] ]
+  ],
+  "dependencies": {}
+}
