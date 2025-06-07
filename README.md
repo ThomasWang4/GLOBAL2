@@ -54,13 +54,14 @@ wokwi.com
 💻 Simulação no Wokwi
 Você pode testar o projeto diretamente no simulador Wokwi através do link abaixo:
 
-🔗 Acessar Simulação no Wokwi
+🔗 Acessar Simulação no Wokwi: https://wokwi.com/projects/433056680439897089
 
 🎥 Vídeo Demonstrativo
 Assista ao vídeo demonstrativo que apresenta o funcionamento do sistema:
 
 🔗 Link para o Vídeo Demonstrativo <!-- Substitua '#' pelo link real do vídeo -->
-
+Teorica: https://streamable.com/jmi3rf
+Prática: https://streamable.com/31zfrv
 📁 Estrutura do Repositório
 pgsql
 Copiar
@@ -74,3 +75,5 @@ O código está devidamente comentado e segue boas práticas de programação pa
 📌 Considerações Finais
 Este projeto demonstra como é possível utilizar componentes simples e de baixo custo para criar um sistema eficiente de alerta de enchentes. A implementação em simuladores como o Wokwi permite testar e validar a lógica antes de uma possível aplicação prática.
 
+RM565104 - Thomas Jeferson Santana Wang
+RM563850 - Christian Schunck
